@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+            <link rel="stylesheet" href="css/style.css">
+
+            <title>Document</title>
+
+        </head>
+        <body>
+            <header>
+                <div id="logo" onclick="slowScroll('#top')">
+                    <span>itProger</span>
+                </div>
+
+                <div id="about">
+                    <a href="#" title="Возможности" onclick="slowScroll('#main')" >Возможности</a>
+                    <a href="#" title="Преимущества" onclick="slowScroll('#overiew')" >Преимущества</a>
+                    <a href="#" title="Контакты" onclick="slowScroll('#contacts')" >Контакты</a>
+                    <a href="#" title="Ответы на вопросы" onclick="slowScroll('#faq')" >FAQ</a>
+                </div>
+            </header>
+
+            <div id="top">
+                <h1>Программирование</h1>
+                <h3>как способ жизни</h3>
+            </div>
+
+            <div id="main">
+                <div class="intro">
+                    <h2>Наши услуги помогут Вам!</h2>
+                    <span>Большой выбор всего, что может Вам пригодиться<span>
+                </div>
+                <div class="text">
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur officia odit perferendis dolor laboriosam? Ab quibusdam magni aliquid quia labore quae unde ducimus dolorem nihil voluptatem, veniam quasi voluptate ipsum perspiciatis tempora quidem ea aut tempore consectetur! Iusto temporibus facere, deleniti alias sequi ab et illo id repellendus deserunt sint!</span>
+                </div>
+            </div>
+
+            <div id="overview">
+                <h2>Преимущества</h2>
+                <h4>с нами все проще</h4>
+
+                <div class="img">
+                    <img src="https://miro.medium.com/max/1024/1*MJgL97wJN9aI7bIr_dgnKQ.jpeg" alt="">
+                    <span>Язык гипертекстовой разметки документов <br> HTML</span>
+                </div>
+                <div class="img">
+                    <img src="https://blog.faradars.org/wp-content/uploads/2019/09/What-is-CSS.jpg" alt="">
+                    <span>Таблица стилей <br> CSS</span>
+                </div>
+                <div class="img">
+                    <img src="https://www.technotification.com/wp-content/uploads/2018/06/the-magic-of-javascript.jpg" alt="">
+                    <span>Язык управления элементами на сайте JS</span>
+                </div>
+                <div class="img">
+                    <img src="https://blog.faradars.org/wp-content/uploads/2019/10/Python-MATLAB-Fig14.jpg" alt="">
+                    <span>Изучения языка Python</span>
+                </div>
+            </div>
+
+            <div id="contacts">
+                <center><h5>Обратная связь</h5></center>
+
+                <form id="form_input">
+                    <label for="name">Имя <span>*</span></label><br>
+                    <input type="text" placeholder="Введите имя" name="name" id="name"> <br>
+                    <label for="email">Ваша почта <span>*</span></label><br>
+                    <input type="email" placeholder="Введите вашу почту" name="email" id="email"> <br>
+                    <label for="message">Сообщение<span>*</span></label><br>
+                    <textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea> <br>
+                <div id="mess_send" class="btn">Отправить</div>
+                </form>
+            </div>
+
+            <div id="faq">
+                <div>
+                    <span class="title">Оплата</span><br>
+                    <span class="heading">Как будет проходить оплата?</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellat nesciunt quae eos nostrum ullam modi sequi exercitationem molestias accusamus praesentium ratione provident dolor voluptatem quod, tempore pariatur doloremque. Voluptate?</p>
+                    <span class="heading">Как будет проходить оплата?</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellat nesciunt quae eos nostrum ullam modi sequi exercitationem molestias accusamus praesentium ratione provident dolor voluptatem quod, tempore pariatur doloremque. Voluptate?</p>
+                    <span class="heading">Как будет проходить оплата?</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellat nesciunt quae eos nostrum ullam modi sequi exercitationem molestias accusamus praesentium ratione provident dolor voluptatem quod, tempore pariatur doloremque. Voluptate?</p>
+                </div>
+                <div>
+                    <span class="title">Информация</span><br>
+                    <span class="heading">Что входит в услуги сервиса?</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellat nesciunt quae eos nostrum ullam modi sequi exercitationem molestias accusamus praesentium ratione provident dolor voluptatem quod, tempore pariatur doloremque. Voluptate?</p>
+                    <span class="heading">Что входит в услуги сервиса?</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellat nesciunt quae eos nostrum ullam modi sequi exercitationem molestias accusamus praesentium ratione provident dolor voluptatem quod, tempore pariatur doloremque. Voluptate?</p>
+                    <span class="heading">Что входит в услуги сервиса?</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellat nesciunt quae eos nostrum ullam modi sequi exercitationem molestias accusamus praesentium ratione provident dolor voluptatem quod, tempore pariatur doloremque. Voluptate?</p>
+                </div>
+                <div>
+                    <span class="title">Гарантии</span><br>
+                    <span class="heading">Какие гарантии есть?</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellat nesciunt quae eos nostrum ullam modi sequi exercitationem molestias accusamus praesentium ratione provident dolor voluptatem quod, tempore pariatur doloremque. Voluptate?</p>
+                    <span class="heading">Какие гарантии есть?</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellat nesciunt quae eos nostrum ullam modi sequi exercitationem molestias accusamus praesentium ratione provident dolor voluptatem quod, tempore pariatur doloremque. Voluptate?</p>
+                    <span class="heading">Какие гарантии есть?</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellat nesciunt quae eos nostrum ullam modi sequi exercitationem molestias accusamus praesentium ratione provident dolor voluptatem quod, tempore pariatur doloremque. Voluptate?</p>
+                </div>
+            </div>
+           
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+            <script>
+                function slowScroll(id) {
+                    $ ('html, body').animate({
+                        scrollTop: $(id).offset().top
+                    },500);
+                }
+                $ (document).on("scroll", function () {
+                    if ($(window).scrollTop() === 0)
+                    $("header").removeClass("fixed");
+                    else
+                    $("header").attr("class","fixed");
+                });
+            </script>
+        </body>
+</html>
